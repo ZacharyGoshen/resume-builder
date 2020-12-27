@@ -27,7 +27,17 @@ public class Application {
 	@Bean
 	public CommandLineRunner startup(ResumeRepository repository) {
 		return (args) -> {
-			repository.save(new Resume("Zachary", "Goshen"));
+			repository.save(
+				new Resume(
+					"Zachary",
+					"Goshen",
+					"917 S Rolfe St",
+					"Arlington",
+					"VA",
+					"4434041716",
+					"zachgoshen@gmail.com"
+				)
+			);
 		};
 	}
 }

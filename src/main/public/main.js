@@ -42,7 +42,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: "", component: _components_resume_resume_component__WEBPACK_IMPORTED_MODULE_2__["ResumeComponent"] }
+    { path: "resumes", component: _components_resume_resume_component__WEBPACK_IMPORTED_MODULE_2__["ResumeComponent"] }
 ];
 class AppRoutingModule {
 }

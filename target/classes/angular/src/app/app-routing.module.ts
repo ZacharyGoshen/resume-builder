@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ResumeComponent } from './components/resume/resume.component';
 
 const routes: Routes = [
-  { path: "", component: ResumeComponent }
+  { path: "resumes", component: ResumeComponent }
 ];
 
 @NgModule({
