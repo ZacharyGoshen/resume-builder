@@ -1,6 +1,8 @@
 package com.zachgoshen.resumebuilder;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,8 +16,8 @@ public class ResumeController {
     @Autowired ResumeService resumeService;
 
     @GetMapping("")
-    public List<Resume> list() {
-        return resumeService.listAll();
+    public ResponseEntity<List<Resume>> list() {
+        return new ResponseEntity<>(resumeService.listAll(), HttpStatus.OK);
     }
 
 }

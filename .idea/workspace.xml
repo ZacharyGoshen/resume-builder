@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47078eb8-67d5-4104-b000-b5de618c54f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/resume/resume.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/resume/resume.component.html" afterDir="false" />
@@ -17,10 +13,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/models/resume.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/public/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/public/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/public/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" afterDir="false" />
@@ -29,9 +24,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/angular/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/resources/angular" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1m9wc2hLc2URw1oeFcN6Eg83yuq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -107,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608919195423</updated>
-      <workItem from="1609093828435" duration="3226000" />
+      <workItem from="1609093828435" duration="4082000" />
     </task>
     <servers />
   </component>
