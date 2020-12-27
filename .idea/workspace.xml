@@ -15,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" afterDir="false" />
@@ -24,6 +23,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +64,27 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/src/main/resources/angular/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="JUnit.com.zachgoshen.resumebuilder in resume-builder">
-    <configuration name="com.zachgoshen.resumebuilder in resume-builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in resume-builder">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in resume-builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="resume-builder" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumeIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="resume-builder" />
       <extension name="coverage">
         <pattern>
@@ -72,6 +92,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zachgoshen.resumebuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.zachgoshen.resumebuilder.ResumeIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.zachgoshen.resumebuilder in resume-builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="resume-builder" />
       <option name="PACKAGE_NAME" value="com.zachgoshen.resumebuilder" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -87,7 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in resume-builder" />
         <item itemvalue="JUnit.com.zachgoshen.resumebuilder in resume-builder" />
+        <item itemvalue="JUnit.ResumeIntegrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608919195423</updated>
-      <workItem from="1609093828435" duration="4082000" />
+      <workItem from="1609093828435" duration="7053000" />
     </task>
     <servers />
   </component>
@@ -120,5 +151,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/resume_builder$All_in_resume_builder.ic" NAME="All in resume-builder Coverage Results" MODIFIED="1609102857030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/resume_builder$com_zachgoshen_resumebuilder_in_resume_builder.ic" NAME="com.zachgoshen.resumebuilder in resume-builder Coverage Results" MODIFIED="1609102673348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zachgoshen.resumebuilder.*</FILTER>
+    </SUITE>
   </component>
 </project>
