@@ -24,10 +24,12 @@ public class ResumeIntegrationTests {
     }
 
     @Test
-    public void getSpecificResumeReturnsValidResponse() throws Exception {
+    public void getResumeWithIdReturnsValidResponse() throws Exception {
         this.mockMvc
             .perform(get("/resumes/1"))
             .andExpect(status().isOk());
     }
+
+
 
 }

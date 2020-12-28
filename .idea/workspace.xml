@@ -13,8 +13,11 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/models/resume.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-builder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resume-builder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" afterDir="false" />
@@ -24,7 +27,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zachgoshen/resumebuilder/ResumeIntegrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zachgoshen/resumebuilder/ResumeIntegrationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/src/main/resources/angular/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="JUnit.All in resume-builder">
+  <component name="RunManager" selected="JUnit.com.zachgoshen.resumebuilder in resume-builder">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -80,6 +84,21 @@
       <module name="resume-builder" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumeControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="resume-builder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zachgoshen.resumebuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zachgoshen.resumebuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.zachgoshen.resumebuilder.ResumeControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,8 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in resume-builder" />
         <item itemvalue="JUnit.com.zachgoshen.resumebuilder in resume-builder" />
+        <item itemvalue="JUnit.ResumeControllerTests" />
+        <item itemvalue="JUnit.All in resume-builder" />
         <item itemvalue="JUnit.ResumeIntegrationTests" />
       </list>
     </recent_temporary>
@@ -130,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608919195423</updated>
-      <workItem from="1609093828435" duration="7053000" />
+      <workItem from="1609093828435" duration="11735000" />
     </task>
     <servers />
   </component>
