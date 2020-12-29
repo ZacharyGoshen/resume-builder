@@ -5,30 +5,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47078eb8-67d5-4104-b000-b5de618c54f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/resume/resume.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/resume/resume.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/resume/resume.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/resume/resume.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/models/resume.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/services/resume.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-builder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resume-builder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/components/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zachgoshen/resumebuilder/ResumeIntegrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zachgoshen/resumebuilder/ResumeIntegrationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/resume/resume.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/resume/resume.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/resume/resume.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/components/resume/resume.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/resume.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/services/resume.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/services/resume.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-builder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/Resume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zachgoshen/resumebuilder/ResumeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/polyfills.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/runtime.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/styles.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/public/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/angular" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zachgoshen/resumebuilder/ResumeIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/resume/resume.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/resume/resume.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/resume/resume.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/components/resume/resume.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/models/resume.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/services/resume.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/app/services/resume.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/tsconfig.base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/angular/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Application$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/Resume.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zachgoshen/resumebuilder/ResumeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zachgoshen/resumebuilder/ResumeControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zachgoshen/resumebuilder/ResumeIntegrationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +122,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
   </component>
   <component name="ProjectId" id="1m9wc2hLc2URw1oeFcN6Eg83yuq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,17 +148,6 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/src/main/resources/angular/node_modules/typescript/lib" />
   </component>
   <component name="RunManager" selected="JUnit.com.zachgoshen.resumebuilder in resume-builder">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in resume-builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="resume-builder" />
       <option name="PACKAGE_NAME" value="" />
@@ -151,6 +219,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608919195423</updated>
       <workItem from="1609093828435" duration="11735000" />
+      <workItem from="1609192436207" duration="1774000" />
+      <workItem from="1609251892405" duration="103000" />
+      <workItem from="1609252002052" duration="231000" />
     </task>
     <servers />
   </component>
