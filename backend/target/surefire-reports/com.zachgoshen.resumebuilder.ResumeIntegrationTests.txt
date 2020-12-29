@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.zachgoshen.resumebuilder.ResumeIntegrationTests
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.392 s - in com.zachgoshen.resumebuilder.ResumeIntegrationTests
