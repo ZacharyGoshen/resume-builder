@@ -12,22 +12,27 @@ import java.util.Optional;
 @Transactional
 public class ResumeService {
 
-    @Autowired ResumeRepository repository;
+    private final ResumeRepository resumeRepository;
+
+    @Autowired
+    public ResumeService(ResumeRepository resumeRepository) {
+        this.resumeRepository = resumeRepository;
+    }
 
     public List<Resume> listAll() {
-        return (List<Resume>) repository.findAll();
+        return (List<Resume>) resumeRepository.findAll();
     }
 
     public Optional<Resume> findById(long id) {
-        return repository.findById(id);
+        return resumeRepository.findById(id);
     }
 
     public Resume create(Resume resume) {
-        return repository.save(resume);
+        return resumeRepository.save(resume);
     }
 
     public Optional<Resume> update(long id, Resume updatedResume) {
-        Optional<Resume> resumeOptional = repository.findById(id);
+        Optional<Resume> resumeOptional = resumeRepository.findById(id);
         if (resumeOptional.isPresent()) {
             Resume resume = resumeOptional.get();
             resume.setFirstName(updatedResume.getFirstName());
@@ -37,16 +42,16 @@ public class ResumeService {
             resume.setState(updatedResume.getState());
             resume.setPhoneNumber(updatedResume.getPhoneNumber());
             resume.setEmail(updatedResume.getEmail());
-            return Optional.of(repository.save(resume));
+            return Optional.of(resumeRepository.save(resume));
         } else {
             return Optional.empty();
         }
     }
 
     public boolean delete(long id) {
-        Optional<Resume> resumeOptional = repository.findById(id);
+        Optional<Resume> resumeOptional = resumeRepository.findById(id);
         if (resumeOptional.isPresent()) {
-            repository.deleteById(id);
+            resumeRepository.deleteById(id);
             return true;
         } else {
             return false;
