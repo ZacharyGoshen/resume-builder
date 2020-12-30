@@ -26,9 +26,9 @@ public class ResumeController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Resume> findById(@PathVariable long id) {
-        Optional<Resume> resume = resumeService.findById(id);
-        if (resume.isPresent()) {
-            return new ResponseEntity<>(resume.get(), HttpStatus.OK);
+        Optional<Resume> resumeOptional = resumeService.findById(id);
+        if (resumeOptional.isPresent()) {
+            return new ResponseEntity<>(resumeOptional.get(), HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
