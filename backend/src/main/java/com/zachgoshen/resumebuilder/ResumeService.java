@@ -43,4 +43,14 @@ public class ResumeService {
         }
     }
 
+    public boolean delete(long id) {
+        Optional<Resume> resumeOptional = repository.findById(id);
+        if (resumeOptional.isPresent()) {
+            repository.deleteById(id);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

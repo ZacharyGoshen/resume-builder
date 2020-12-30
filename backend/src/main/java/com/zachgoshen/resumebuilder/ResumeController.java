@@ -48,4 +48,13 @@ public class ResumeController {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
     }
+
+    @DeleteMapping("{id}")
+    public ResponseEntity<Resume> delete(@PathVariable long id) {
+        if (resumeService.delete(id) == true) {
+            return new ResponseEntity<>(HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
+    }
 }

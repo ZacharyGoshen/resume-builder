@@ -125,4 +125,23 @@ public class ResumeControllerIntegrationTests {
             .andExpect(status().isNoContent());
     }
 
+    @Test
+    void Delete_ExistingResume_ReturnsOk() throws Exception {
+        Resume resume = new Resume();
+        resume.setId(1L);
+
+        Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.of(resume));
+
+        mockMvc.perform(delete("/resumes/1"))
+            .andExpect(status().isOk());
+    }
+
+    @Test
+    void Delete_NonexistentResume_ReturnsNoContent() throws Exception {
+        Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.empty());
+
+        mockMvc.perform(delete("/resumes/1"))
+                .andExpect(status().isNoContent());
+    }
+
 }
