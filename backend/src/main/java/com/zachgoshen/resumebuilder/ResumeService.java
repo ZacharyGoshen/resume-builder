@@ -22,4 +22,8 @@ public class ResumeService {
         return repository.findById(id);
     }
 
+    public Resume create(Resume resume) {
+        return repository.save(resume);
+    }
+
 }

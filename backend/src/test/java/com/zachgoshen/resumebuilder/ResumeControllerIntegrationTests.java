@@ -1,16 +1,18 @@
 package com.zachgoshen.resumebuilder;
 
 import static org.hamcrest.Matchers.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.ArrayList;
@@ -23,6 +25,9 @@ public class ResumeControllerIntegrationTests {
 
     @Autowired
     private MockMvc mockMvc;
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @MockBean
     private ResumeRepository resumeRepository;
@@ -53,8 +58,8 @@ public class ResumeControllerIntegrationTests {
         Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.of(resume));
 
         mockMvc.perform(get("/resumes/1"))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id", is(1)));
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.id", is(1)));
     }
 
     @Test
@@ -62,7 +67,23 @@ public class ResumeControllerIntegrationTests {
         Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.empty());
 
         mockMvc.perform(get("/resumes/1"))
-                .andExpect(status().isNoContent());
+            .andExpect(status().isNoContent());
+    }
+
+    @Test
+    void Post_ValidResume_ReturnsCreatedWithResume() throws Exception {
+        Resume resume = new Resume();
+        resume.setId(1L);
+
+        Mockito.when(resumeRepository.save(Mockito.any(Resume.class))).thenReturn(resume);
+
+        mockMvc.perform(
+            post("/resumes")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(objectMapper.writeValueAsString(resume))
+        )
+            .andExpect(status().isCreated())
+            .andExpect(jsonPath("$.id", is(1)));
     }
 
 }
