@@ -26,4 +26,21 @@ public class ResumeService {
         return repository.save(resume);
     }
 
+    public Optional<Resume> update(long id, Resume updatedResume) {
+        Optional<Resume> resumeOptional = repository.findById(id);
+        if (resumeOptional.isPresent()) {
+            Resume resume = resumeOptional.get();
+            resume.setFirstName(updatedResume.getFirstName());
+            resume.setLastName(updatedResume.getLastName());
+            resume.setAddress(updatedResume.getAddress());
+            resume.setCity(updatedResume.getCity());
+            resume.setState(updatedResume.getState());
+            resume.setPhoneNumber(updatedResume.getPhoneNumber());
+            resume.setEmail(updatedResume.getEmail());
+            return Optional.of(repository.save(resume));
+        } else {
+            return Optional.empty();
+        }
+    }
+
 }

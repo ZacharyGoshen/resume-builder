@@ -7,6 +7,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -63,7 +64,7 @@ public class ResumeControllerIntegrationTests {
     }
 
     @Test
-    void Get_NonExistingResume_ReturnsNoContent() throws Exception {
+    void Get_NonexistentResume_ReturnsNoContent() throws Exception {
         Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.empty());
 
         mockMvc.perform(get("/resumes/1"))
@@ -84,6 +85,44 @@ public class ResumeControllerIntegrationTests {
         )
             .andExpect(status().isCreated())
             .andExpect(jsonPath("$.id", is(1)));
+    }
+
+    @Test
+    void Put_ExistingResume_ReturnsOkWithUpdatedResume() throws Exception {
+        Resume resume = new Resume();
+        resume.setId(1L);
+        resume.setFirstName("Bob");
+
+        Resume updatedResume = new Resume();
+        updatedResume.setId(1L);
+        updatedResume.setFirstName("Jack");
+
+        Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.of(resume));
+        Mockito.when(resumeRepository.save(Mockito.any(Resume.class))).thenAnswer(i -> i.getArguments()[0]);
+
+        mockMvc.perform(
+            put("/resumes/1")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(objectMapper.writeValueAsString(updatedResume))
+        )
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.id", is(1)))
+            .andExpect(jsonPath("$.firstName", is("Jack")));
+    }
+
+    @Test
+    void Put_NonexistentResume_ReturnsNoContent() throws Exception {
+        Resume resume = new Resume();
+        resume.setId(1L);
+
+        Mockito.when(resumeRepository.findById(1L)).thenReturn(Optional.empty());
+
+        mockMvc.perform(
+            put("/resumes/1")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(objectMapper.writeValueAsString(resume))
+        )
+            .andExpect(status().isNoContent());
     }
 
 }
